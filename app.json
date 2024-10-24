@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.expo.melody"
     },
     "web": {
       "bundler": "metro",
@@ -30,7 +31,7 @@
       [
         "expo-router",
         {
-          "origin":"https://melodyLife.com/"
+          "origin": "https://melodyLife.com/"
         }
       ],
       [
@@ -42,6 +43,11 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2214729c-24d5-46e8-9b52-0575d3bfc186"
+      }
     }
   }
 }

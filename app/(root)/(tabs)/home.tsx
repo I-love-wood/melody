@@ -20,6 +20,7 @@ import { icons, images } from "@/constants";
 import { useFetch } from "@/lib/fetch";
 import { useLocationStore } from "@/store";
 import { Ride } from "@/types/type";
+import React from "react";
 
 const Home = () => {
   const { user } = useUser();

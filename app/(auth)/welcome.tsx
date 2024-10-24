@@ -6,6 +6,7 @@ import Swiper from "react-native-swiper";
 
 import CustomButton from "@/components/CustomButton";
 import { onboarding } from "@/constants";
+import React from "react";
 
 // TODO: 修改原样式
 const Home = () => {

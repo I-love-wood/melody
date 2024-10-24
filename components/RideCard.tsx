@@ -3,6 +3,7 @@ import { Image, Text, View } from "react-native";
 import { icons } from "@/constants";
 import { formatDate, formatTime } from "@/lib/utils";
 import { Ride } from "@/types/type";
+import React from "react";
 
 const RideCard = ({ ride }: { ride: Ride }) => {
   return (
